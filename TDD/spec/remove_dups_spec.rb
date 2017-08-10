@@ -15,9 +15,4 @@ describe "#my_uniq" do
       expect(array.uniq.count(el)).to eq(1)
     end
   end
-
-  # it "maintains original order of elements" do
-  #   expect(array.my_uniq).to eq(array.uniq)
-  # end
-
 end
